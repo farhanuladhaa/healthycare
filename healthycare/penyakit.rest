@@ -1,0 +1,15 @@
+GET https://healthy-care.hasura.app/api/rest/penyakit
+Content-Type: application/json
+x-hasura-admin-secret: UFGS5AtJ0RBX0PefltddMZjqkYtlxjFpFKvBpVJhz0fEwOqUWGIgTU7s0nw4tIZX
+
+query penyakit {
+  penyakit {
+    nama_penyakit
+    id
+    deskripsi
+    jenis_penyakit
+    rekomendasi_obat
+  }
+}
+
+

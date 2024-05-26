@@ -1,0 +1,14 @@
+GET https://healthy-care.hasura.app/api/rest/obat
+Content-Type: application/json
+x-hasura-admin-secret: UFGS5AtJ0RBX0PefltddMZjqkYtlxjFpFKvBpVJhz0fEwOqUWGIgTU7s0nw4tIZX
+
+query obat {
+  obat {
+    id
+    jenis_obat
+    nama_obat
+    deskripsi
+  }
+}
+
+
